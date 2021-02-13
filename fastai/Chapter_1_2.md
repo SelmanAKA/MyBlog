@@ -1,1 +1,31 @@
-
+# CHAPTER 1
+- Short history, AI winter-1, XOR problem multiple layers are required, AI winter-2, 2 layers good more layers better.
+- Top down approach, experiment a lot. **Kaggle is great resource.**
+- Notebooks. I know Jupyter Notebook though wanted to use Colab.
+- **CNNs can be used on image data, lots of non-image data can be expressed as matrix and worked on as if they are images.**
+- **If I keep running same training cell it does not reset and start from 0 instead it overfits the data.** 
+- **When I overfit the data, train_loss keep getting better because the model memorized the dataset but the valid_loss started to get worse because the model started to lose its flexibility and became only usable on the data that memorized. In other words it became useless.**
+- Time series example, **it is important how you choose your ValidSet, because it defines what will you have in the end.**
+- Jargon;
+- Label
+- Architecture vs Model = template vs specific trained architecture
+- Parameters 
+- Fit = Train
+- Fine-tune = fitting a pre-trained model
+- Epoch = one tour
+- Loss vs Metric = **for SGD vs for Humans**
+- ValidSet and TrainSet also (TestSet)
+- Overfitting
+- CNN
+- Tabular, csv
+# CHAPTER 2
+- State of Deep learning at 2020. **Data augmentation is cool.**
+- Computer Vision
+- NLP, seems good at generating texts, however seems pretty bad at generating correct texts.
+- **Recommendation systems that I have seen so far was really useless.**
+- Drivetrain Approach, 
+- The bias, **The healty skin search = white young womans, or the blacks getting arrested more and more.**
+- DataLoaders, Data augmentation, Train the model, Clean the data, turn it to an application. 
+- Voila :)
+- Avoid disaster tips. **Always assume the worst case will happen.**
+- **Finally, a blog tip that comes too late :(**
